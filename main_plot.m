@@ -12,10 +12,10 @@ set(0,'DefaultaxesFontName', 'arial')
 sortienumber = 2;
 global folder n s2 s4 heliparams
 
-s2 = {'Helicopter\','RIS\','RLV\'};
-s4 = {'Helicopter\','RIS','RLV'};
+s2 = {''};
+s4 = {''};
 n=2;
-folder = 'F:\LEX\EMT\EMT-2\RawData\EMT 2 Sortie 1\';
+folder = '';
 %%
 sensorcomb = extract_sensorcomb;
 quaternion = extract_quaternion;
